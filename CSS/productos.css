@@ -1,0 +1,108 @@
+main {
+    margin-top: 0;
+}
+section#section-cabecera{
+    background-color: black;
+    height: 8rem;
+    color: white;
+}
+section#articulos{
+    background-color: white;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+section#articulos>div{
+    margin-top: 1rem;
+    border: solid 1px black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section#articulos>div>img{
+    object-fit: cover;
+    width: 10rem;
+}
+section#articulos>div>div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+section#articulos>div>div>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    height: 2rem;
+    width: 7rem;
+}
+section#articulos>div>div>a:hover{
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+}
+section#articulos>div>div>p{
+    text-decoration: none;
+    color: black;
+}
+
+section#fotos{
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    overflow-y: hidden;
+}
+section#fotos>div#mano{
+    height: 30rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 25rem;
+    
+    animation-delay: 2s;
+    animation: mano;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+section#fotos>div#mano>img{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 5rem;
+
+}
+    
+    @keyframes mano {
+        0%{
+            left: 15rem;
+        }
+        25%{
+            left: 18rem;
+        }
+        50%{
+            left: 15rem;
+        }
+        75%{
+            left: 18rem;
+            opacity: 0;
+        }
+        100%{
+            left: 15rem;
+            opacity: 0;
+        }
+    }
+  

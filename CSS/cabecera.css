@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: absolute;
+    display: flex;
+    height: 5rem;
+    flex-direction: column;
+}
+header>section#logo{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+header>section#logo>a>img{
+    display: block;
+    width: 8rem;
+}
+header>section#menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+}
+header>section#menu>div{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 80%;
+    text-decoration: none;
+}
+header>section#menu>div>a{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+header>section#menu>div:hover{
+    background-color: white;
+}
+header>section#menu>div>a{
+    text-decoration: none;
+    color: white;
+}
+header>section#menu>div>a:hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+section#primera>div.texto>p{
+    color: white;
+    text-align: center;
+    width: 90vw;
+    margin-left: 5vw;
+}
+section#primera>div.texto>h1{
+    color: white;
+    text-align: center;
+    width: 90vw;
+    margin-left: 5vw;
+}
+section#segunda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    width: 100vw;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+section#segunda>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    text-align: center;
+}
+section#segunda>div>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: solid black 1px;
+}
+section#segunda>div>a:hover{
+    background-color: black;
+    color: white;
+}
+section#section-cabecera{
+    background-color: black;
+    height: 8rem;
+    color: white;
+}
+
